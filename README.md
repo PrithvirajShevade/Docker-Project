@@ -14,8 +14,11 @@
  # Project Structure
   /project-root
     |-- Dockerfile (for the Node.js app)
+    
     |-- docker-compose.yml (for managing containers)
+    
     |-- /src (source code for the frontend and backend)
+    
     |-- /data (MongoDB data stored via Docker volume)
 
 # Technologies Used
